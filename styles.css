@@ -1,0 +1,26 @@
+.todo {
+  background-color: #f7f7f7;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+  background-color: #e0e0e0;
+}
+
+.todo input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+.todo h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.todo p {
+  font-size: 0.9em;
+  color: #666;
+}
